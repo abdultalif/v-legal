@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vlegal_license>
+	<header>
+		<negara_tujuan>[Kode Negara Tujuan, an 2, M, Lampiran 1]</negara_tujuan>
+		<skema_kerjasama>[Kode Skema Kerjasama, n, Lampiran 2]</skema_kerjasama>
+		<nama_importir>[Nama Importir, an 100, M]</nama_importir>
+		<alamat_importir>[Alamat Importir, an 256, M]</alamat_importir>
+		<negara_importir>[Kode Negara Importir, an 2, M, Lampiran 1]</negara_importir>
+		<loading_port>[Kode Pelabuhan Muat, an 5, M, Lampiran 3]</loading_port>
+		<discharge_port>[Kode Pelabuhan Bongkar, an 5, M, Lampiran 4]</discharge_port>
+		<no_slk>[Nomor S-LK, n]</no_slk>
+		<no_dokumen>[Nomor Dokumen V-Legal, n, M]</no_dokumen>
+		<tgl_dokumen>[Tanggal Dokumen V-Legal, Date(YYYYMMDD), M]</tgl_dokumen>
+		<no_invoice>[Nomor Invoice, an 50, M]</no_invoice>
+		<tgl_invoice>[Tanggal Invoice, Date(YYYYMMDD), M]</tgl_invoice>
+		<transportasi>[Kode Sarana Transportasi, an 256, M, Lampiran 5]</transportasi>
+		<npwp_eksportir>[NPWP Eksportir, an 15, M]</npwp_eksportir>
+		<nama_eksportir>[Nama Eksportir, an 100, M]</nama_eksportir>
+		<alamat_eksportir>[Alamat Eksportir, an 256, M]</alamat_eksportir>
+		<kode_propinsi>[Kode Propinsi Alamat Eksportir, an 2, M, Lampiran 6]</kode_propinsi>
+		<kode_kabupaten>[Kode Kabupaten Alamat Eksportir, an 4, M, Lampiran 7]</kode_kabupaten>
+		<no_etpik>[Nomor Dokumen ETPIK, an 50, M]</no_etpik>
+		<keterangan>[Keterangan, an 256]</keterangan>
+		<nama_ttd>[Kode Pejabat Penandatangan, an 3, M, Lampiran 9]</nama_ttd>
+		<tempat_ttd>[Tempat Tanda Tangan, an 256, M]</tempat_ttd>
+		<digital_sign>[Tampilkan TTD Digital, an 1, M]</digital_sign>
+		<location_stuffing>[Tampilkan Lokasi Stuffing, an 100, M]</ location_stuffing>
+	</header>
+	<detil>
+		<!-- Start Looping Data Barang -->
+		<data_barang>
+			<kode_hs>[Kode HS, an 10, M]</kode_hs>
+			<hs_printed>[Kode HS Printed, an 10]</hs_printed>
+			<deskripsi_barang>[Deskripsi Barang, an 256, M]</deskripsi_barang>
+			<volume>[Volume Barang, n]</volume>
+			<netto>[Berat Bersih, n]</netto>
+			<jumlah_unit>[Jumlah Unit, n]</jumlah_unit>
+			<value>[Nilai Ekspor, n, M]</value>
+			<valuta>[Kode Mata Uang dari Nilai Barang, an 3, M, Lampiran 11]</valuta>
+			<nama_ilmiah>[Nama Ilmiah Barang, an 256, M]</nama_ilmiah>
+			<negara_panen>[Kode Negara Panen, an 2, M, Lampiran 1]</negara_panen>
+		</data_barang>
+		<!-- End Looping Data Barang -->
+	</detil>
+</vlegal_license>

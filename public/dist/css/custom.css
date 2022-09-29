@@ -1,0 +1,36 @@
+* {
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+#galeri .btn-hapus-galeri {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  background-color: #dc3545;
+  color: #fff;
+  padding: 4px 6px;
+  border-radius: 50%;
+}
+
+body.dark-mode .gj-picker.gj-picker-bootstrap.datepicker {
+  background: #000;
+}
+
+.dark-mode.accent-lightblue .page-item.disabled .page-link,
+.dark-mode.accent-lightblue .page-item.disabled a {
+  background: #343a40;
+  border-color: #4f5962;
+}
+
+body.dark-mode #captcha-form.bg-light {
+  background: #343a40 !important;
+  border-color: #4f5962 !important;
+}
+
+body.dark-mode #captcha-form.bg-light #captcha-text {
+  color: #ffffff !important;
+}
+
+.select2 {
+  width: 100% !important;
+}
